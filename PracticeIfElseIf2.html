@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var userName = prompt("who's there!",'');
+
+        if(userName === 'Admin'){
+            var passWord = prompt("Password:");
+                if(passWord === 'TheMaster'){
+                    document.write('Welcome');
+                }else if(passWord === ''){
+                    document.write('Canceled');
+                }else{
+                    document.write('Wrong password');
+                }
+            }else{
+            alert("I don't know you");
+        }
+
+
+    </script>
+</body>
+</html>
